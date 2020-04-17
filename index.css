@@ -1,0 +1,96 @@
+body {
+  width: 90%;
+  margin: auto;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #2D2926;
+  position: fixed;
+  top: 0;
+  width: 90%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #BA0C2F;
+  color: #2D2926;
+}
+
+.main {
+  margin-top: 30px;
+}
+
+.image-wrapper {
+  width: 100%;
+  background: #2D2926;
+}
+
+.logo {
+  display: block;
+  width: 30%;
+  padding: 100px 0 120px;
+  margin: auto;
+}
+
+.product-section {
+  padding: 10px 0 30px;
+}
+
+.product-section h2, .contact-section h2 {
+  text-align: center;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 40px;
+}
+
+.product-cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.product-card {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  text-align: center;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.product-card p {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 0;
+}
+
+.contact-section {
+  background: #BA0C2F;
+  color: white;
+  padding: 10px 0 50px;
+}
+
+.contact-section .address {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.contact-section a {
+  color: white;
+}
